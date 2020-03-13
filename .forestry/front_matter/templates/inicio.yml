@@ -1,4 +1,29 @@
 ---
 label: Inicio
 hide_body: true
-fields: []
+fields:
+- name: Inicio
+  type: text
+  config:
+    required: false
+  label: ini
+- name: fotos
+  type: image_gallery
+  config: {}
+  label: fotos
+- name: presentacion
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: presentacion
+- name: campos
+  type: blocks
+  label: campos
+  template_types: []
+  config:
+    min: 
+    max: 
